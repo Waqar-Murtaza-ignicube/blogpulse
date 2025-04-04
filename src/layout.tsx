@@ -10,6 +10,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <>
       <Navbar />
+      <div className='border border-[#333] mx-8'></div>
       
       <main className="main-content">
         {children}
