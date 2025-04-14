@@ -23,7 +23,7 @@ const Article: FC<ArticleProps> = ({article}) => {
                     
                     <div className='flex items-center justify-between gap-3'>
                         <strong>Date</strong>
-                        <p>{article.author}</p>
+                        <p>{article.date}</p>
                     </div>
                     
                     <div className='flex items-center justify-between gap-3'>
