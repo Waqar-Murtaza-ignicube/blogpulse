@@ -9,15 +9,15 @@ export const LeadArticleWrapper = styled.div.attrs({
 })``;
 
 export const LeadArticleContainer = styled.div.attrs({
-    className: "flex justify-center items-start gap-10",
+    className: "flex justify-between gap-10",
 })``;
 
 export const LeadArticleHeading = styled.h2.attrs({
-    className: "font-bold text-[120px] leading-[120px]",
+    className: "font-bold text-[120px] leading-[120px] w-[50%]",
 })``;
   
 export const ArticleMetaData = styled.div.attrs({
-    className: "pt-3 space-y-7",
+    className: "pt-3 flex flex-col justify-between w-[50%]",
 })``;
 
 export const ArticleMetaDataWrapper = styled.div.attrs({

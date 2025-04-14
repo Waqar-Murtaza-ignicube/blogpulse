@@ -27,13 +27,9 @@ const Header: FC = () => {
         </TickerContainer>
         <LeadArticleWrapper>
             <LeadArticleContainer>
-                <div className=""> 
-                    <LeadArticleHeading>DON'T CLOSE YOUR EYES</LeadArticleHeading>
-                </div>
+                <LeadArticleHeading>DON'T CLOSE YOUR EYES</LeadArticleHeading>
                 <ArticleMetaData>
-                    <div className="">  
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit unde, soluta, error sunt, aspernatur necessitatibus magni expedita exercitationem ab aperiam debitis illum totam modi nihil accusamus ratione fugiat fuga molestiae.</p>
-                    </div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non minima quas consectetur, accusamus libero, ab nam animi dicta iusto quo dignissimos nulla nihil ducimus velit rem, voluptatum iure amet consequatur nostrum ad. Inventore, corporis minus excepturi ipsa perspiciatis voluptatum? Animi necessitatibus quibusdam expedita voluptatem reiciendis blanditiis, explicabo asperiores eaque, accusantium tempora temporibus optio eum! Incidunt quaerat consequatur dolore sunt et.</p>
                     <ArticleMetaDataWrapper>
                         <ArticleMetaDataContainer>
                             <ArticleMetaDataContentBlock>
