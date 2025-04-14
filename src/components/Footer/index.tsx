@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom"
 import Ticker from "./Ticker"
+import { footerTickers } from "../../utils/ticker"
 
 const Footer = () => {
   return (
     <footer className="footer p-8 bg-black text-white flex flex-col gap-10">
 
-      <Ticker />
+      <Ticker tickers={footerTickers} />
 
       <div className="flex items-center justify-between">
         <h2 className="text-6xl font-bold">DESIGN NEWS TO <br />YOUR INBOX</h2>
@@ -20,17 +21,17 @@ const Footer = () => {
         <Link className="font-bold text-2xl" to="/">BlogPulse</Link>
 
         <ul className="flex flex-col justify-between gap-4 items-start text-gray-400">
-          <li><Link to="/blogs">Blogs</Link></li>
+          <li><Link to="/articles">Articles</Link></li>
           <li><Link to="/authors">Authors</Link></li>
           <li><Link to="/contact">Contact</Link></li>
         </ul>
         <ul className="flex flex-col justify-between gap-4 items-start text-gray-400">
-          <li><Link to="/blogs">Blogs</Link></li>
+          <li><Link to="/articles">Articles</Link></li>
           <li><Link to="/authors">Authors</Link></li>
           <li><Link to="/contact">Contact</Link></li>
         </ul>
         <ul className="flex flex-col justify-between gap-4 items-start text-gray-400">
-          <li><Link to="/blogs">Blogs</Link></li>
+          <li><Link to="/articles">Articles</Link></li>
           <li><Link to="/authors">Authors</Link></li>
           <li><Link to="/contact">Contact</Link></li>
         </ul>

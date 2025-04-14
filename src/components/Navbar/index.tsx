@@ -7,7 +7,7 @@ const Navbar = () => {
                 <Link to="/">BlogPulse</Link>
             </div>
             <ul className="flex justify-between gap-4 items-center">
-                <li><Link to="/blogs">Blogs</Link></li>
+                <li><Link to="/articles">Articles</Link></li>
                 <li><Link to="/authors">Authors</Link></li>
                 <li><Link to="/contact">Contact</Link></li>
                 <li><Link className="border border-gray-300 p-2 rounded-md" to="/sign-in">Log In</Link></li>

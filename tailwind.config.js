@@ -12,8 +12,14 @@ export default {
           '100%': { transform: 'translateX(-50%)' },
         },
       },
+      keyframes: {
+        ticker: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(calc(-50% - 20px))" },
+        },
+      },
       animation: {
-        'scroll-left': 'scroll-left 20s linear infinite',
+        ticker: "ticker 20s linear infinite",
       },
     },
   },

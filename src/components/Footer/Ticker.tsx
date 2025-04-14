@@ -1,18 +1,22 @@
-const NewsletterTicker = () => {
-    const text = 'NEWSLETTER +++ ';
-    const repeatedText = text.repeat(20); // Make it long for smooth loop
-  
-    return (
-    <div className="overflow-hidden whitespace-nowrap bg-black text-white py-2">
-        <div className="inline-block animate-scroll-left whitespace-nowrap">
-          <span className="pr-8 ">{repeatedText}</span>
-          <span className="pr-8 ">{repeatedText}</span>
-          <span className="pr-8 ">{repeatedText}</span>
-        </div>
+import { FC } from "react";
+import { SingleTicker } from "./types";
+
+interface TickerProps {
+  tickers: SingleTicker[]
+}
+
+const Ticker: FC<TickerProps> = ({tickers}) => {
+  return (
+    <div className="overflow-hidden bg-black flex">
+      <div className="animate-ticker whitespace-nowrap flex gap-10 bg-black text-white py-2">
+        {[...tickers, ...tickers].map((ticker, index) => (
+          <div key={index}>
+            <span className="mx-4 text-white text-xl font-bold">{ticker.name}</span>
+          </div>
+        ))}
       </div>
-      
-    );
-  };
-  
-  export default NewsletterTicker;
-  
+    </div>
+  );
+};
+
+export default Ticker;
