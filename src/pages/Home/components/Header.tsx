@@ -1,8 +1,8 @@
 import { FC } from "react"
-import image from "../../assets/header-image.png"
-import artlife from "../../assets/artlife.svg"
-import Ticker from "../Footer/Ticker"
-import { articleTickers } from "../../utils/ticker"
+import image from "@/assets/header-image.png"
+import artlife from "@/assets/artlife.svg"
+import Ticker from "@/components/Layout/Footer/Ticker"
+import { articleTickers } from "@/utils/ticker"
 import {
     ArticleMetaData,
     ArticleMetaDataCategory,
@@ -13,7 +13,7 @@ import {
     LeadArticleHeading,
     LeadArticleWrapper,
     TickerContainer
-} from "./styles"
+} from "./../styles"
 
 const Header: FC = () => {
   return (

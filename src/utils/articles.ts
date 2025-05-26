@@ -1,9 +1,9 @@
-import ameliabrown from "../assets/amelia-brown-yWNiCZw5yps-unsplash 1.png"
-import birmingham from "../assets/birmingham-museums-trust-TWavMkqC_cc-unsplash 1.png"
-import fabian from "../assets/fabian-bachli-A2Zf3fGbdFQ-unsplash 1.png"
-import diango from "../assets/diogo-nunes-Wa9ilX9XYOI-unsplash 2.png"
-import simon from "../assets/simon-sun-PLai_SojR78-unsplash 1.png"
-import serhi from "../assets/serhii-tyaglovsky-lCdhTOCNrt4-unsplash 1.png"
+import ameliabrown from "@/assets/amelia-brown-yWNiCZw5yps-unsplash 1.png"
+import birmingham from "@/assets/birmingham-museums-trust-TWavMkqC_cc-unsplash 1.png"
+import fabian from "@/assets/fabian-bachli-A2Zf3fGbdFQ-unsplash 1.png"
+import diango from "@/assets/diogo-nunes-Wa9ilX9XYOI-unsplash 2.png"
+import simon from "@/assets/simon-sun-PLai_SojR78-unsplash 1.png"
+import serhi from "@/assets/serhii-tyaglovsky-lCdhTOCNrt4-unsplash 1.png"
 
 export const articles = [
     {

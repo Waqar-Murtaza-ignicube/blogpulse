@@ -1,6 +1,6 @@
-import Articles from "../../components/HomePage/Articles"
-import Header from "../../components/HomePage/Header"
-import Sidebar from "../../components/HomePage/Sidebar"
+import Articles from "./components/Articles"
+import Header from "./components/Header"
+import Sidebar from "./components/Sidebar"
 
 const Home = () => {
   return (

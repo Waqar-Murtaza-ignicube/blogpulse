@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import Ticker from "./Ticker"
-import { footerTickers } from "../../utils/ticker"
+import { footerTickers } from "../../../utils/ticker"
 
 const Footer = () => {
   return (

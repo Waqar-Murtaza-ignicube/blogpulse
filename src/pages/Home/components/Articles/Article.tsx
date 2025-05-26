@@ -1,5 +1,5 @@
 import { FC } from "react"
-import { SingleArticle } from "../types"
+import { SingleArticle } from "@/pages/Home/types"
 
 interface ArticleProps {
     article: SingleArticle

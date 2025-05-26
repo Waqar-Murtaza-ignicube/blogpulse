@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import magazine from '../../../assets/mojtaba-mosayebzadeh-V9mVXYKGyxc-unsplash 1.png'
+import magazine from '@/assets/mojtaba-mosayebzadeh-V9mVXYKGyxc-unsplash 1.png'
 
 const Magazine: FC = () => {
   return (

@@ -1,6 +1,7 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+import Navbar from './components/Layout/Navbar';
+import Footer from './components/Layout/Footer';
+import HorizontalLine from './components/ui/HorizontalLine';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -10,7 +11,9 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <>
       <Navbar />
-      <div className='border border-[#333] mx-8'></div>
+      <div className='mx-8'>
+        <HorizontalLine />
+      </div>
       
       <main className="main-content">
         {children}
