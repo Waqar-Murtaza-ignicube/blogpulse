@@ -1,17 +1,33 @@
 import { FC } from 'react'
+import { LinkButton } from '@/components/ui'
+import {
+  NewsLetterBlock,
+  NewsLetterSubHeading,
+  NewsLetterWrapper
+} from '../../styles'
 
 const Newsletter: FC = () => {
   return (
-    <div className='p-6 bg-gray-100'>
-        <div className='space-y-2 mb-5'>
-            <h4 className='font-bold'>NEWSLETTER</h4>
-            <div className='text-3xl font-bold'>Design News to <br />your inbox</div>
-        </div>
-        <div className='space-y-3'>
-            <input type="email" name="email" id="email" placeholder='Email' className='p-2 bg-white w-full'/>
-            <button className='text-sm py-3 px-4 text-white bg-black'>SIGN UP</button>
-        </div>
-    </div>
+    <NewsLetterWrapper>
+      <NewsLetterBlock>
+        <h4 className='font-bold'>NEWSLETTER</h4>
+        <NewsLetterSubHeading>
+          Design News to <br />your inbox
+        </NewsLetterSubHeading>
+      </NewsLetterBlock>
+      <div className='space-y-3'>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder='Email'
+          className='p-2 bg-white w-full'
+        />
+        <LinkButton to='/' variant='dark' className='py-2.5 w-fit'>
+          Sign up
+        </LinkButton>
+      </div>
+    </NewsLetterWrapper>
   )
 }
 

@@ -1,7 +1,7 @@
 import { FC } from "react"
 import image from "@/assets/header-image.png"
 import artlife from "@/assets/artlife.svg"
-import Ticker from "@/components/Layout/Footer/Ticker"
+import { Ticker } from "@/components/ui"
 import { articleTickers } from "@/utils/ticker"
 import {
     ArticleMetaData,

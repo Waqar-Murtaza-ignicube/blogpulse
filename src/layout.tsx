@@ -1,7 +1,7 @@
 import React from 'react';
-import Navbar from './components/Layout/Navbar';
-import Footer from './components/Layout/Footer';
-import HorizontalLine from './components/ui/HorizontalLine';
+import Navbar from './components/layout/Navbar';
+import Footer from './components/layout/Footer';
+import { HorizontalLine } from './components/ui';
 
 interface LayoutProps {
   children: React.ReactNode;

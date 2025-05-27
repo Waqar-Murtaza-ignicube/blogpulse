@@ -1,18 +1,26 @@
 import { FC } from 'react'
-import magazine from '@/assets/mojtaba-mosayebzadeh-V9mVXYKGyxc-unsplash 1.png'
+import coverImage from '@/assets/magazin-cover.svg'
+import { LinkButton } from '@/components/ui'
+import {
+  SidebarMagazineContainer,
+  SidebarMagazineDate,
+  SidebarMagazineHeading
+} from '../../styles'
 
 const Magazine: FC = () => {
   return (
-    <div className='flex flex-col gap-5 items-start'>
+    <SidebarMagazineContainer>
       <div className='space-y-3'>
-        <h3 className='text-sm font-bold'>PRINT MAGAZINE</h3>
-        <div className='text-4xl font-bold'>03/2022</div>
+        <SidebarMagazineHeading>PRINT MAGAZINE</SidebarMagazineHeading>
+        <SidebarMagazineDate>03/2022</SidebarMagazineDate>
       </div>
-      <div className='flex flex-col gap-5 items-start'>
-        <img src={magazine} width="100%" alt="" />
-        <button className='bg-black text-white text-sm p-4 font-bold'>DOWNLOAD</button>
-      </div>
-    </div>
+      <SidebarMagazineContainer>
+        <img src={coverImage} width="100%" alt="" />
+        <LinkButton variant='dark' className='py-3' to='/'>
+          download
+        </LinkButton>
+      </SidebarMagazineContainer>
+    </SidebarMagazineContainer>
   )
 }
 

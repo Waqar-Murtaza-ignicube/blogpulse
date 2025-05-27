@@ -1,13 +1,13 @@
-import {
-  BrowserRouter,
-  Route,
-  Routes
-} from "react-router-dom";
 import Layout from "./layout";
 import Authors from "./pages/Authors";
 import Articles from "./pages/Articles";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
+import {
+  BrowserRouter,
+  Route,
+  Routes
+} from "react-router-dom";
 
 const App = () => {
 
