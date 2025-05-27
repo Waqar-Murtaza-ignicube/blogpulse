@@ -39,7 +39,7 @@ const Footer = () => {
 
       <FooterLinksWrapper>
         <Link
-          className="font-bold text-2xl"
+          className="font-bold text-3xl"
           to="/"
         >
           BlogPulse
@@ -58,24 +58,24 @@ const Footer = () => {
         </FooterLinksListWrapper>
         <FooterLinksListWrapper>
           <li>
-            <Link to="/articles">Articles</Link>
+            <Link to="/articles">Art</Link>
           </li>
           <li>
-            <Link to="/authors">Authors</Link>
+            <Link to="/authors">Strret Art</Link>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <Link to="/contact">Sculptures</Link>
           </li>
         </FooterLinksListWrapper>
         <FooterLinksListWrapper>
           <li>
-            <Link to="/articles">Articles</Link>
+            <Link to="/articles">LinkedIn</Link>
           </li>
           <li>
-            <Link to="/authors">Authors</Link>
+            <Link to="/authors">Instagram</Link>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <Link to="/contact">Twitter</Link>
           </li>
         </FooterLinksListWrapper>
       </FooterLinksWrapper>

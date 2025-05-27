@@ -13,7 +13,7 @@ export const NavLinks = styled.nav.attrs({
 })``;
 
 export const FooterWrapper = styled.footer.attrs({
-    className: "footer p-8 bg-black text-white flex flex-col gap-20",
+    className: "footer p-8 bg-black text-white flex flex-col gap-32",
 })``;
 
 export const FormWrapper = styled.div.attrs({
@@ -25,7 +25,7 @@ export const FormHeading = styled.h2.attrs({
 })``;
 
 export const FooterLinksWrapper = styled.div.attrs({
-    className: "flex justify-start space-x-72",
+    className: "flex justify-start space-x-80",
 })``;
 
 export const FooterLinksListWrapper = styled.ul.attrs({

@@ -23,7 +23,10 @@ const Newsletter: FC = () => {
           placeholder='Email'
           className='p-2 bg-white w-full'
         />
-        <LinkButton to='/' variant='dark' className='py-2.5 w-fit'>
+        <LinkButton
+          to='/'
+          variant='dark'
+          className='py-2.5 w-fit hover:bg-gray-100'>
           Sign up
         </LinkButton>
       </div>
