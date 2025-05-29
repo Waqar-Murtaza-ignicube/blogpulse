@@ -1,41 +1,40 @@
 import { FC } from 'react'
 import { HorizontalLine } from '@/components/ui'
+import { SingleArticle } from '../../types'
 import {
   PopularBlock,
-  PopularHeading,
   PopularItem,
   PopularItemHeading,
   PopularWrapper
 } from '../../styles'
 
-const PopularArticles: FC = () => {
+interface PopularArticlesProps {
+  article: SingleArticle;
+  redirectToArticle: (id: number) => void;
+}
+
+const PopularArticles: FC<PopularArticlesProps> = ({
+  article,
+  redirectToArticle,
+}) => {
   return (
-    <div>
-      <PopularHeading>MOST POPULAR</PopularHeading>
+    <div
+      className='cursor-pointer'
+      onClick={() => redirectToArticle(article.id)}
+    >
       <PopularWrapper>
         <PopularBlock>
-          <PopularItem>01</PopularItem>
+          <PopularItem>0{article.id}</PopularItem>
           <div>
-            <PopularItemHeading>Street art festival</PopularItemHeading>
-            <div><strong>Text</strong> Cristofer Vanacco</div>
+            <PopularItemHeading>{article.name}</PopularItemHeading>
+            <div
+              className='flex gap-3'>
+              <strong>Author</strong>
+              {article.author}
+            </div>
           </div>
         </PopularBlock>
         <HorizontalLine />
-        <PopularBlock>
-          <PopularItem>02</PopularItem>
-          <div>
-            <PopularItemHeading>Hope dies last</PopularItemHeading>
-            <div><strong>Text</strong> Anne Henry</div>
-          </div>
-        </PopularBlock>
-        <HorizontalLine />
-        <PopularBlock>
-          <PopularItem>03</PopularItem>
-          <div>
-            <PopularItemHeading>Artists who want to rise above</PopularItemHeading>
-            <div><strong>Text</strong> Anna Neilsen</div>
-          </div>
-        </PopularBlock>
       </PopularWrapper>
     </div>
   )

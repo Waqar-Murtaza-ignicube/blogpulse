@@ -61,7 +61,7 @@ export const PopularHeading = styled.h3.attrs({
 })``;
 
 export const PopularWrapper = styled.div.attrs({
-    className: "flex flex-col gap-5"
+    className: "flex flex-col gap-5 mt-2"
 })``;
 
 export const PopularBlock = styled.div.attrs({
@@ -86,4 +86,28 @@ export const NewsLetterBlock = styled.div.attrs({
 
 export const NewsLetterSubHeading = styled.div.attrs({
     className: "text-3xl font-bold"
+})``;
+
+export const AuthorWrapper = styled.div.attrs({
+    className: "flex items-center gap-10 border border-black p-5"
+})``;
+
+export const AuthorHeader = styled.div.attrs({
+    className: "flex items-center justify-between"
+})``;
+
+export const AuthorHeading = styled.div.attrs({
+    className: "text-[104px] font-bold"
+})``;
+
+export const AuthorContentBlock = styled.div.attrs({
+    className: "flex flex-col gap-5 items-start"
+})``;
+
+export const AuthorName = styled.div.attrs({
+    className: "text-xl font-semibold"
+})``;
+
+export const AuthorMetaData = styled.div.attrs({
+    className: "flex gap-3 text-sm"
 })``;

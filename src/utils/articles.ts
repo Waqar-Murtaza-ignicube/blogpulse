@@ -7,15 +7,17 @@ import serhi from "@/assets/serhii-tyaglovsky-lCdhTOCNrt4-unsplash 1.png"
 
 export const articles = [
     {
+        id: 1,
         name: "Hope dies last",
         body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur molestiae architecto deserunt quas libero ad id suscipit repudiandae perspiciatis ea tempore tempora natus praesentium nulla, deleniti pariatur! Commodi, ullam distinctio!",
-        author: "Jakob Gronberg",
+        author: "Anne Henry",
         date: "16, March 2022",
         duration: "1 Min",
         category: "ART",
         image: diango
     },
     {
+        id: 2,
         name: "The best art museums",
         body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur molestiae architecto deserunt quas libero ad id suscipit repudiandae perspiciatis ea tempore tempora natus praesentium nulla, deleniti pariatur! Commodi, ullam distinctio!",
         author: "Jakob Gronberg",
@@ -25,36 +27,40 @@ export const articles = [
         image: fabian
     },
     {
+        id: 3,
         name: "The devil is the details",
         body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur molestiae architecto deserunt quas libero ad id suscipit repudiandae perspiciatis ea tempore tempora natus praesentium nulla, deleniti pariatur! Commodi, ullam distinctio!",
-        author: "Jakob Gronberg",
+        author: "Louise Jesen ",
         date: "16, March 2022",
         duration: "1 Min",
         category: "ART",
         image: birmingham
     },
     {
+        id: 4,
         name: "An indestructible hope",
         body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur molestiae architecto deserunt quas libero ad id suscipit repudiandae perspiciatis ea tempore tempora natus praesentium nulla, deleniti pariatur! Commodi, ullam distinctio!",
-        author: "Jakob Gronberg",
+        author: "Jane Cooper",
         date: "16, March 2022",
         duration: "1 Min",
         category: "ART",
         image: ameliabrown
     },
     {
+        id: 5,
         name: "Street art festival",
         body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur molestiae architecto deserunt quas libero ad id suscipit repudiandae perspiciatis ea tempore tempora natus praesentium nulla, deleniti pariatur! Commodi, ullam distinctio!",
-        author: "Jakob Gronberg",
+        author: "Christofer Vaccaro",
         date: "16, March 2022",
         duration: "1 Min",
         category: "STREET ART",
         image: simon
     },
     {
+        id: 6,
         name: "Through the eyes of street artists",
         body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur molestiae architecto deserunt quas libero ad id suscipit repudiandae perspiciatis ea tempore tempora natus praesentium nulla, deleniti pariatur! Commodi, ullam distinctio!",
-        author: "Jakob Gronberg",
+        author: "Anna Neilsen",
         date: "16, March 2022",
         duration: "1 Min",
         category: "STREET ART",
